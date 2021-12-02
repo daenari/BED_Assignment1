@@ -4,7 +4,7 @@ var dbconnect = {
         var conn = mysql.createConnection({
             host: "localhost",
             user: "root",
-            password: "*IAyame123",
+            password: "root",
             database: "information"
         });     
         return conn;
